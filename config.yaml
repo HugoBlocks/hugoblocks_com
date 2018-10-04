@@ -1,0 +1,80 @@
+# System
+contentdir: "content"
+publishdir: "build"
+staticdir: ["static"]
+themesdir: "./"
+theme: "hugoblocks"
+enableRobotsTXT: true
+
+# Content
+title: "HugoBlocks - A Theme For Sophisticated Creators"
+baseURL: "https://www.hugoblocks.com"
+
+# Go to: https://disqus.com/admin/
+disqusShortname: "hugoblocks"
+
+# Language
+languageCode: "en-us"
+DefaultContentLanguage: "en"
+
+# Structure
+taxonomies:
+  category: categories
+  tag: tags
+
+# Markdown
+blackfriday:
+  extensions: ["hardLineBreak"]
+
+params:
+  RSSLink: "/index.xml"
+
+  # Go to: https://admin.mailchimp.com/
+  mailchimp:
+    contact: "https://singulargarden.us16.list-manage.com/subscribe/post?u=ad396483aa8c2ee83fe1d7758&amp;id=8f380010f9"
+    subscribe: "https://singulargarden.us16.list-manage.com/subscribe/post?u=ad396483aa8c2ee83fe1d7758&amp;id=f83fae0f53"
+
+  analytics:
+    # Go to: https://analytics.google.com
+    google: "UA-51519744-11"
+
+  navbar:
+    logo: /navbar_logo.png
+    title: "lsenta.io"
+
+  seo:
+    title: "HugoBlocks is a framework to build beautiful Hugo Themes quickly"
+    description: ""
+    keywords: ["hugoblocks", "hugo", "wordpress", "blog", "build a landing page", "build hugo theme"]
+
+  cover: "tbd"
+  favicon: "tbd"
+
+# In your mailchimp forms, add a field (TODO) with name (TODO)
+# and the options corresponding to these groups.
+languages:
+  en:
+    weight: 1
+    MailchimpLanguageGroup: ENGLISH
+
+  fr:
+    weight: 2
+    MailchimpLanguageGroup: FRENCH
+
+# Here you can add more menus
+menu:
+  main:
+    - identifier: singulargarden
+      name: SingularGarden
+      pre: _blank
+      weight: 60
+      url: https://www.singulargarden.com/
+
+author:
+  email: "laurent@singulargarden.com"
+  twitter: "laurentsenta"
+  github: "lsenta"
+  linkedin: "laurentsenta"
+  blog: "https://lsenta.io/blog"
+  angellist: "laurent-senta"
+  image: "/lsenta_thumbnail.jpg"

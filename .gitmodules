@@ -1,0 +1,3 @@
+[submodule "hugoblocks"]
+	path = hugoblocks
+	url = git@github.com:lsenta/hugoblocks.git
